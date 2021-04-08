@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+<h2>JavaScript Statements</h2>
+
+<p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
+<p id="sum"></p>
+
+<script>
+var x, y, z;  // Declare 3 variables
+x = 5;    // Assign the value 5 to x
+y = 6;    // Assign the value 6 to y
+z = x + y;  // Assign the sum of x and y to z
+
+document.getElementById("sum").innerHTML =
+"The value of z is " + z + ".";
+</script>
+
+<h2>JavaScript Object Properties</h2>
+
+<p id="prop_in"></p>
+
+<script>
+var txt = "";
+var person = {fname:"John", lname:"Doe", age:25};
+var x;
+for (x in person) {
+  txt += person[x] + " ";
+  }
+  document.getElementById("prop_in").innerHTML = txt;
+  </script>
+
+</body>
+</html>
