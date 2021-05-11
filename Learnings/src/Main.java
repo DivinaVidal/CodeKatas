@@ -1,3 +1,4 @@
+import java.util.*;
 //everything that needs to be run needs to be inside a class, this one is inside Main
 //public class means any other class can access it
 public class Main {

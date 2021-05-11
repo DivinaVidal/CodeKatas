@@ -99,7 +99,7 @@ public class Katas {
         if (valsSet.size() == 1) {
             System.out.println("set val " + valsSet);
             return A;
-        } else { //if the array values are not all the same then shift
+        } else {  //if the array values are not all the same then shift
             for (int i = 0; i < A.length; i++) { //loop thru array
                 System.out.println("i+K = " + (i + K));
                 System.out.println("i = " + i);
@@ -325,17 +325,17 @@ public class Katas {
     }
 
     public static String whoLikesIt2(String... names) {
-        switch (names.length) {
-            case 0: return "no one likes this";
-            case 1: return String.format("%s likes this", names[0]);
-            case 2: return String.format("%s and %s like this", names[0], names[1]);
-            case 3: return String.format("%s, %s and %s like this", names[0], names[1], names[2]);
-            default: return String.format("%s, %s and %d others like this", names[0], names[1], names.length - 2);
-        }
+        return switch (names.length) {
+            case 0 -> "no one likes this";
+            case 1 -> String.format("%s likes this", names[0]);
+            case 2 -> String.format("%s and %s like this", names[0], names[1]);
+            case 3 -> String.format("%s, %s and %s like this", names[0], names[1], names[2]);
+            default -> String.format("%s, %s and %d others like this", names[0], names[1], names.length - 2);
+        };
     }
 
     public static int fibonacci() {
-        int num [] = new int[7];
+        int[] num = new int[7];
 
 
         for (int i = 0; i < 8; i++) {
@@ -352,7 +352,7 @@ public class Katas {
         if (max == 1 || max == 2) {
             return 1;
         }
-        int num[] = {0};
+        int[] num = {0};
         for (int i = 0; i <= max; i++) {
             num[i] = fibonacci2(max - 1) + fibonacci2(max - 2);
             System.out.println("num = " + num[i]);
@@ -405,7 +405,7 @@ public class Katas {
     public static String removeDuplicates() {
         String string = "mississippi";
         char[] chars = string.toCharArray();
-        Set<Character> charSet = new LinkedHashSet<Character>();
+        Set<Character> charSet = new LinkedHashSet<>();
         for (char c : chars) {
             charSet.add(c);
         }
