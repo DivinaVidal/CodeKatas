@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CodeKatas.iml" filepath="$PROJECT_DIR$/.idea/CodeKatas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractices/JavaBeginner/JavaBeginner.iml" filepath="$PROJECT_DIR$/JavaPractices/JavaBeginner/JavaBeginner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractices/Java/JavaPractices.iml" filepath="$PROJECT_DIR$/JavaPractices/Java/JavaPractices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractices/JavaBeginner/LearningJava8-WorkingFiles/LearningJava8-WorkingFiles.iml" filepath="$PROJECT_DIR$/JavaPractices/JavaBeginner/LearningJava8-WorkingFiles/LearningJava8-WorkingFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learnings/Learnings.iml" filepath="$PROJECT_DIR$/Learnings/Learnings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractices/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/JavaPractices/LeetCode/LeetCode.iml" />
+    </modules>
+  </component>
+</project>
